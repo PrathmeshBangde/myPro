@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Spotify - Web Player: Music for everyone'</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="utility.css">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+      <div class="container flex bg_black">
+
+            <div class="left  ">
+                  <div class="close">
+                        <img class="invert" src="close.svg" alt="">
+                  </div>
+                  <div class="home bg_grey rounded m-1 p1">
+                        <div class="logo"><img class="invert" width=120px src="logo.svg" alt=""></div>
+                        <ul>
+
+
+                              <li class="homew"><img class="invert homelogo" src="home.svg" alt="">Home</li>
+                              <li class="searchw"> <img class="invert searchlogo" src="search.svg" alt="">Search</li>
+                        </ul>
+
+
+                  </div>
+                  <div class="library  bg_grey rounded m-1 p1 ">
+                        <div class="heading ">
+                              <img class="invert lib-img" src="playlist.svg" alt="">
+                              <h2 class="lib-h2">
+                                    Your Library
+                              </h2>
+                        </div>
+                        <div class="songlist">
+                              <h4>List Of Songs</h4>
+                              <ul>
+                                    <!-- <li -->
+                                    <!-- <img src="music.svg" alt="" class="invert">
+                                    <div class="info">
+                                        <div>Song name</div>
+                                        <div>Song Artist</div>
+                                      
+                                    </div>
+                                    <div class="playnow">
+                                          <span>Play Now</span>
+                                          <img class="invert" src="play.svg" alt="">
+                                    </div> -->
+
+                                    <!-- </li> -->
+                              </ul>
+                        </div>
+
+                        <div class="footer">
+
+
+                              <a href="https://www.spotify.com/in-en/legal/" id="" data-encore-id="textLink">
+                                    <span data-encore-id="type">Legal</span> </a>
+                              <a href="https://www.spotify.com/in-en/safetyandprivacy/" id="" data-encore-id="textLink">
+                                    <span data-encore-id="type">Safety &amp; Privacy Center</span> </a>
+                              <a href="https://www.spotify.com/in-en/legal/privacy-policy/" id=""
+                                    data-encore-id="textLink">
+                                    <span data-encore-id="type">Privacy Policy</span></a>
+                              <a href="https://www.spotify.com/in-en/legal/cookies-policy/" id=""
+                                    data-encore-id="textLink">
+                                    <span data-encore-id="type">Cookies</span>
+                              </a>
+                              <a href="https://www.spotify.com/in-en/accessibility/" id=""
+                                    class="Link-sc-k8gsk-0 jTuESf Link__BottomLink-sc-c30omp-0 kmeDa"
+                                    data-encore-id="textLink"><span data-encore-id="type"
+                                          class="Type__TypeElement-sc-goli3j-0 gBYjgG">Accessibility</span></a>
+
+
+
+
+                        </div>
+
+                  </div>
+
+
+            </div>
+            <div class="right bg_grey rounded ">
+                  <div class="header ">
+
+                        <div class="nav">
+                              <div class="hamflex">
+
+                                    <img class="invert hamburger" src="hamburger.svg" alt="">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                          color="#000000" fill="none">
+                                          <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"
+                                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                    </svg>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                          color="#000000" fill="none">
+                                          <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                    </svg>
+                              </div>
+
+                        </div>
+                        <div class="buttons">
+                              <button class="signbutton">Signup</button>
+                              <button class="loginbutton">Log in</button>
+
+                        </div>
+                  </div>
+
+                  <div class="spotify_playlist">
+                        <h1>Spotify Playlist</h1>
+
+                        <div class="CardContainer">
+
+                              <div data-folder="shreya" class="card ">
+                                    <div class="play">
+
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+
+                                    </div>
+
+                                    <img src="https://i.scdn.co/image/ab6761610000517436a7262247318ff0f1ad00da" alt="">
+                                    <h2>Shreya Ghoshal</h2>
+                                    <p>Artist</p>
+                              </div>
+
+                              <div data-folder="arijit" class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src=" https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="">
+
+                                    <h2>Arijit Singh</h2>
+                                    <p>Artist</p>
+                              </div>
+                              <div data-folder="diljit" class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab67616100005174fc043bea91ac91c222d235c9" alt="">
+                                    <h2>Diljit Dosanjh</h2>
+                                    <p>Artist</p>
+                              </div>
+                              <div data-folder="badshah" class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab67616100005174eddbb664c4723f268a60d8c1" alt="">
+                                    <h2>Badshah</h2>
+                                    <p>Artist</p>
+                              </div>
+                              <div data-folder="sonu" class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab67616100005174bc959d7569618ec2af2210f5" alt="">
+                                    <h2>Sonu Nigam</h2>
+                                    <p>Artist</p>
+                              </div>
+                              <div data-folder="shankar" class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab676161000051743f27a828c24d73cf0427e2e7" alt="">
+                                    <h2>Shankar Mahadevan</h2>
+                                    <p>Artist</p>
+                              </div>
+                              <div class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+
+                                    <h2>Pritam</h2>
+                                    <p>Artist</p>
+                              </div>
+                              <div class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+
+                                    <img src=" https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="">
+                                    <h2>A.R.Rahman</h2>
+                                    <p>Artist</p>
+                              </div>
+                              <div class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab67616100005174fd5ddfdc83ae91d0515bacf6" alt="">
+                                    <h2>Darshan Raval</h2>
+                                    <p>Artist</p>
+                              </div>
+
+                              <div class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843" alt="">
+                                    <h2>Anirudha Ravichander</h2>
+                                    <p>Artist</p>
+                              </div>
+                              <div class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab67616100005174fb13d10be20fdcb5a670f551" alt="">
+                                    <h2>Vishal Mishra</h2>
+                                    <p>Artist</p>
+                              </div>
+                              <div class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab676161000051743fabb44dc3b3dcfc1a366298" alt="">
+                                    <h2>Karan Aujla</h2>
+                                    <p>Artist</p>
+                              </div>
+
+                              <div class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf" alt="">
+                                    <h2>Vishal-Shekhar</h2>
+                                    <p>Artist</p>
+                              </div>
+                              <div class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="">
+                                    <h2>Atif Aslam</h2>
+                                    <p>Artist</p>
+                              </div>
+
+                              <div data-folder="sachin" class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab67616100005174a038d7d87f8577bbb9686bd3" alt="">
+                                    <h2>Sachin-Jigar</h2>
+                                    <p>Artist</p>
+                              </div>
+                              <div class="card ">
+                                    <div class="play">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50"
+                                                height="50">
+                                                <circle cx="25" cy="25" r="24" fill="#3be477" />
+                                                <path d="M20 15L35 25L20 35V15Z" fill="black" />
+                                          </svg>
+
+
+
+                                    </div>
+                                    <img src="https://i.scdn.co/image/ab676161000051748de0e6e7e55d7773931ab7f4" alt="">
+                                    <h2>Udit Narayan</h2>
+                                    <p>Artist</p>
+                              </div>
+
+
+
+                        </div>
+
+                        <div class="playbar">
+                              <div class="seekbar">
+                                    <div class="circle">
+
+                                    </div>
+                              </div>
+                              <div class="abovebar">
+
+                                    <div class="songinfo"> </div>
+
+                                    <div class="volume">
+
+                                          <div class="songtime"></div>
+                                          <div class="volume"><img class="invert" src="volume.svg" alt=""></div>
+                                          <div class="range">
+                                                <input class="invert" type="range" name="" id="">
+                                          </div>
+                                    </div>
+                              </div>
+
+
+                              <div class="songbuttons">
+                                    <img width="30" id="previous" src="prevsong.svg" alt="">
+                                    <img width="30" id="play" src="play.svg" alt="">
+                                    <img width="30" id="next" src="nextsong.svg" alt="">
+                              </div>
+                              <span class="material-symbols-outlined like">
+                                    favorite
+                              </span>
+
+                        </div>
+
+                  </div>
+                 
+
+
+            </div>
+
+      </div>
+
+
+      <script src="script1.js"></script>
+</body>
+
+</html>
